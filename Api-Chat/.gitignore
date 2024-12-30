@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask instance and config files
+instance/
+*.env
+*.flaskenv
+
+# Environment variables
+.env
+.venv/
+venv/
+ENV/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+*.log
+
+# Virtualbox and other VM files
+.vagrant/
+*.vdi
+*.vbox
+*.vbox-prev
+
+# Database files
+*.sqlite3
+
+# Pytest
+.cache/
+
+# Flask migrations
+migrations/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
