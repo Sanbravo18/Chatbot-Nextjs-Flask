@@ -1,7 +1,6 @@
 from flask import Blueprint, request, jsonify, Response
 from werkzeug.exceptions import HTTPException, NotFound
 from openai import OpenAI
-import os
 import json
 import asyncio ## Importar asyncio para desarrollo
 
