@@ -5,6 +5,7 @@ from flask_cors import CORS
 
 from dotenv import load_dotenv
 
+from routes.usersRouter import users 
 from routes.chatsRouter import chats
 
 # Cargar variables de entorno
@@ -14,7 +15,7 @@ load_dotenv()
 
 app = Flask(__name__)
 CORS(app)  # Habilitar CORS
-
+app.register_blueprint(users)
 app.register_blueprint(chats)
 
 

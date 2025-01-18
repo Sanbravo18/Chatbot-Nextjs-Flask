@@ -4,3 +4,5 @@ openai
 flask-cors
 requests
 black
+Flask[async]
+werkzeug
