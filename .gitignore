@@ -50,3 +50,6 @@ migrations/
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+mongo_data/
+
